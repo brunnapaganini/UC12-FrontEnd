@@ -1,0 +1,22 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to bottom, grey 0%, black 100%);
+}
+.cabecalho {
+    text-align: center;
+}
+
+.link{
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.rodape{
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+}
