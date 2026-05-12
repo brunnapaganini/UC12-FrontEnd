@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<body>
+    <div class="teste">teste div</div> <!--fica na mesma linha-->
+    <hr>
+    <span class="teste-span">teste span</span> <!--linha inteira-->
+    <hr>
+    <div class="teste2">.</div>
+    <div class="teste2">. </div> <!--uma embaixo da outra, porque são dois blocos diferentes-->
+    <hr>
+    <span>.</span>
+    <span>.</span>
+    <!--não funcionou a largura, porque o span é inline por padrão-->
+    <hr>
+    <!--funcionou,porque ele deixou de ser inline e se tornou inline-block-->
+    <hr>
+    <div class="diva">1</div>
+    <div class="diva">2</div>
+    <div class="diva">3</div>
+    <hr>
+    <div class="block">4</div>
+    <div class="inline">5</div>
+    <div class="inline-block">6</div> <!--não respeita-->
+    <hr>
+    <div class="nenhuma">misteriosa</div> <!--none some, hidden esconde-->
+    <hr>
+    <a href="https://github.com/LeoSouzaSenac/UC12-25-1N/blob/main/5%20-%20Display.md" class="a1">github leo</a>
+    <a href="https://github.com/LeoSouzaSenac/UC12-25-1N/blob/main/5%20-%20Display.md" class="a1">github leo</a>
+    <a href="https://github.com/LeoSouzaSenac/UC12-25-1N/blob/main/5%20-%20Display.md" class="a1">github leo</a>
+    <a href="https://github.com/LeoSouzaSenac/UC12-25-1N/blob/main/5%20-%20Display.md" class="a1">github leo</a> <!--não funciona, porque a é por padrão inline;
+    corrige mudando para block (um embaixo do  outro)-->
+    <hr>
+    <div class="card">
+        <p>Produto</p>
+        <button>Comprar</button>
+    </div> <!--display: inline-block;
+        funcionou,porque ele deixou de ser inline e se tornou inline-block-->
+    
+</body>
+</html>
